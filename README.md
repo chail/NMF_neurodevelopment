@@ -21,7 +21,7 @@ analysis pipeline for non-negative matrix factorization on the Philadelphia Neur
   *	we used the 100 oldest and 100 youngest subjects for our analyses
 
 4. build association matrices using wavelet coherence
-  *	wavelet toolbox used for generated wavelet coherence: <http://www.glaciology.net/wavelet*coherence>
+  *	wavelet toolbox used for generated wavelet coherence: <http://www.glaciology.net/wavelet-coherence>
   *	this toolbox is included in the matlab_functions directory
   * navigate to ts36_wavelets_highpass directory
   *	run wavelet_coherence.m file in matlab
