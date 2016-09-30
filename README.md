@@ -17,7 +17,7 @@ analysis pipeline for non-negative matrix factorization on the Philadelphia Neur
   *	neuralSystem.xlsx
   *	sex.mat
 
-3. generate old and young subject groups in subject indicies directory
+3. generate old and young subject groups in subject_indicies directory
   *	we used the 100 oldest and 100 youngest subjects for our analyses
 
 4. build association matrices using wavelet coherence
@@ -37,7 +37,7 @@ analysis pipeline for non-negative matrix factorization on the Philadelphia Neur
   *	in the ts36_wavelets_highpass directory run `python highpass_nmf.py`
   *	this will concatenate the subject matrices and regress out motion, then run nmf
   *	you can also run `python highpass_nmf_supplement.py` in the same directory for additional processing pipelines
-  * in the ts36_wavelets_censor directory run `python censer_nmf.py`
+  * in the ts36_wavelets_censor directory run `python censor_nmf.py`
 
 7. in nmf_master.py running each pipeline will generate figures
 
